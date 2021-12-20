@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Puzzle</string>
+    <string name="greeting">Welcome to Winnie\'s Program</string>
+    <string name="do_not_press">Don\'t Press This Button</string>
+</resources>

@@ -1,0 +1,39 @@
+
+Step 6 Grading	
+
+Name:   Winnie Yang
+
+When you have completed the step assignment, complete the following form and compute your assignment grade. Rename this file: 
+ Include this file as a text in the folder with your project when you turn it in. Enter the number of points you deserve for each grading category. You may enter partial points if you feel you have partially completed the category.
+
+Total available points:  100
+For each item, if there is a request for the file and line number, indicate that as well so the TA can verify the code.
+
+User ID you used in your program:  _________yangyi20_________
+
+
+Password you used in your program: _________Zaza1027_________
+
+
+___5__	5 	Submitted correctly (naming, grading sheet, etc.)
+
+
+__50__	50 	Tutorial completed
+
+
+__10__	10 	hatter-save.php works correctly
+
+
+__10__	10 	hatter-cat.php works correctly
+
+
+__15__	15 	hatter-load.php works correctly
+
+
+__10__	10 	hatter-delete.php works correctly
+
+
+_100__	Total (please add the points and include the total here)
+
+The grade you compute is the starting point for course staff, who reserve the right to change the grade if they disagree with your assessment and to deduct points for other issues they may encounter, such as errors in the submission process, naming issues, etc.
+

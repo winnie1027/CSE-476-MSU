@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textLabelProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="30dp"
+        android:text="@string/provider"
+        android:textSize="20sp"
+        tools:text="@string/provider"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textLabelProvider"
+        android:text="@string/dummy"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/textLabelLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLabelProvider"
+        android:layout_marginStart="30dp"
+        android:text="@string/latitude"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textProvider"
+        android:layout_toEndOf="@id/textLabelLatitude"
+        android:text="@string/dummy"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/textLabelLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLabelLatitude"
+        android:layout_marginStart="30dp"
+        android:text="@string/longitude"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLatitude"
+        android:layout_toEndOf="@id/textLabelLongitude"
+        android:text="@string/dummy"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/textTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLongitude"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/dummy"
+        android:textSize="15sp"
+        android:visibility="visible"
+        tools:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/textDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dummy"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/textNewLocLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDistance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/newLoc"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        tools:text="@string/newLoc"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNewLocLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:minHeight="48dp"
+        android:visibility="visible"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buttonNewLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editLocation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/newButton"
+        android:textSize="20sp"
+        tools:text="@string/newButton"
+        android:onClick="onNew" />
+
+    <Button
+        android:id="@+id/buttonDriving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNewLoc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:text="@string/drive"/>
+
+    <Button
+        android:id="@+id/buttonWalking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDriving"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:text="@string/walk"/>
+
+    <Button
+        android:id="@+id/buttonBicycling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonWalking"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:text="@string/biking"/>
+
+</RelativeLayout>
